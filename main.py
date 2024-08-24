@@ -16,20 +16,20 @@ def Ex02():
     def X():
         num1 = int(input("Digite X: "))
         if num1 >= 1:
-            return num1
+            return int(num1)
         else:
             print("X tem que ser maior que 1 ou igual")
-            X()
+            return X()
     x = X()
     def Y():
         num2 = int(input("Digite y: "))
         if num2 <= 100:
-            return num2
+            return int(num2)
         else:
             print("Y tem que ser menor que 100 ou igual")
-            Y()
+            return Y()
     y = Y()
-    Rafael = (3 * x) * (3 * x) + y * y
+    Rafael = (3 * x) * (3 * x) + (y * y) # Provavel erro em Type, arrumei mas pode voltar
     Beto = 2 * (x ** 2) + (y * 5) ** 2
     Carlos = (-100 * x) + y ** 3
     if Rafael > Beto and Rafael > Carlos:
