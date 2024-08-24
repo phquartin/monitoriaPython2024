@@ -1,4 +1,7 @@
 # monitoriaPython2024
+## Como usar:
+### <i> Fiz isso para aprender e me divertir</i>. <br> Com o "main.py" e o "App.py" na mesma pasta é so executar o "App.py" que ele vai buscar as "defs" no "main.py", após selecionar o exercício é so fazer os testes.
+#### obs: planejo criar um loop para o "App.py" mas agora são 01:24 e eu quero dormir (sem contar que são 2 exercicíos por enquanto).
 Ex01: Leia um valor inteiro, que é o tempo de duração em segundos de um determinado evento em uma fábrica, e informe-o expresso no formato horas:minutos:segundos.
 Entrada
 O arquivo de entrada contém um valor inteiro N.
